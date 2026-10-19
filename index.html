@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koperasi Sekolah SMK Mutia Harapan Cicalengka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ============== NAVBAR ============== -->
+        <nav class="navbar">
+
+<!-- UBAH MENJADI -->
+<div class="logo">
+    <img src="logo.jfif" alt="Logo SMK" class="logo-img">
+    <span>SMK MUTHIA HARAPAN CICALENGKA</span>
+</div>
+            <div class="nav-menu">
+                <button class="nav-btn active" data-page="beranda">Beranda</button>
+                <button class="nav-btn" data-page="seragam">Seragam</button>
+                <button class="nav-btn" data-page="spp">SPP</button>
+                <button class="nav-btn" data-page="ujian">Ujian</button>
+                <button class="nav-btn" data-page="transaksi">Transaksi</button>
+            </div>
+        </nav>
+
+        <!-- ============== BERANDA ============== -->
+        <section class="page active" id="beranda">
+            <div class="welcome-box">
+                <h1>SELAMAT DATANG</h1>
+                <h2>DI WEBSITE KOPERASI SEKOLAH</h2>
+                <p>SMK Mutia Harapan Cicalengka</p>
+                <div class="menu-buttons">
+                    <button class="menu-card" data-goto="seragam">SERAGAM SEKOLAH</button>
+                    <button class="menu-card" data-goto="spp">PEMBAYARAN SPP</button>
+                    <button class="menu-card" data-goto="ujian">PEMBAYARAN UJIAN</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== SERAGAM ============== -->
+        <section class="page" id="seragam">
+            <h2 class="page-title">SERAGAM SEKOLAH</h2>
+            <div class="seragam-grid">
+                <!-- Baris 1 -->
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju pendek.jpeg" alt="Baju Putih Pendek">
+                    </div>
+                    <p>Baju putih pendek</p>
+                    <p class="item-price">Rp 110.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Putih Pendek" data-price="110000">
+                        <button class="plus">+</button>
+                    </div>
+
+                    
+
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju panjang.jpeg" alt="Baju Putih Panjang">
+                    </div>
+                    <p>Baju putih panjang</p>
+                    <p class="item-price">Rp 110.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Putih Panjang" 110000>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="celana panjang.jpeg" alt="Celana Panjang">
+                    </div>
+                    <p>Celana panjang</p>
+                    <p class="item-price">Rp 155.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Celana Panjang" data-price="155000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="rok.jpeg" alt="Rok Panjang">
+                    </div>
+                    <p>Rok panjang</p>
+                    <p class="item-price">Rp 155.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Rok Panjang" data-price="155000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="batik panjang.jpeg" alt="Baju Batik Panjang">
+                    </div>
+                    <p>Baju batik panjang</p>
+                    <p class="item-price">Rp 150.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Batik Panjang" data-price="150000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <!-- Baris 2 -->
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="batik pendek.jpeg" alt="Baju Batik Pendek">
+                    </div>
+                    <p>Baju batik pendek</p>
+                    <p class="item-price">Rp 145.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Batik Pendek" data-price="145000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju panjang olah raga.jpeg" alt="Baju Olahraga Panjang">
+                    </div>
+                    <p>Baju olahraga panjang</p>
+                    <p class="item-price">Rp 130.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Olahraga Panjang" data-price="130000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju pendek olahraga.jpeg" alt="Baju Olahraga Pendek">
+                    </div>
+                    <p>Baju olahraga pendek</p>
+                    <p class="item-price">Rp 125.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Olahraga Pendek" data-price="125000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju rpl.jpeg" alt="Baju RPL">
+                    </div>
+                    <p>Baju RPL</p>
+                    <p class="item-price">Rp 250.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju RPL" data-price="250000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju tsm.jpeg" alt="Baju TBSM">
+                    </div>
+                    <p>Baju Jurusan TBSM</p>
+                    <p class="item-price">Rp 250.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju TBSM" data-price="250000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <!-- Baris 3 -->
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju pramuka.jpeg" alt="Baju Pramuka Pendek">
+                    </div>
+                    <p>Baju pramuka pendek</p>
+                    <p class="item-price">Rp 120.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Pramuka Pendek" data-price="120000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="baju panjang pramuka.jpeg" alt="Baju Pramuka Panjang">
+                    </div>
+                    <p>Baju pramuka panjang</p>
+                    <p class="item-price">Rp 150.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Baju Pramuka Panjang" data-price="150000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <div class="item-img">
+                        <img src="jas.jpeg" alt="Jas Almet SMK">
+                    </div>
+                    <p>Jas almet smk</p>
+                    <p class="item-price">Rp 200.000</p>
+                    <div class="qty-control">
+                        <button class="minus">-</button>
+                        <input type="number" class="qty-input" value="0" min="0" data-name="Jas Almet SMK" data-price="200000">
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+            </div>
+            <button class="pay-btn" id="keFormSeragam">PEMBAYARAN →</button>
+        </section>
+
+        <!-- ============== FORM PEMBELIAN SERAGAM ============== -->
+        <section class="page" id="form-seragam">
+            <h2 class="page-title">JUMLAH PEMBELIAN BAJU SERAGAM SEKOLAH</h2>
+            <div class="form-box">
+                <div class="form-row">
+                    <label>NAMA SISWA :</label>
+                    <input type="text" id="namaSiswa" placeholder="Masukkan nama">
+                </div>
+                <div class="form-row">
+                    <label>JUMLAH SERAGAM YANG DIBELI :</label>
+                    <input type="text" id="jmlBeli" readonly value="0">
+                </div>
+
+                <!-- SIMPAN KODE BARU TEPAT DI BAWAH INI -->
+<div class="form-row">
+    <label>RINCIAN SERAGAM :</label>
+    <div id="rincianBaju" style="background:#fff; padding:10px; border-radius:4px; border:1px solid #ccc; font-size:14px; min-height:40px;">
+        Belum ada barang dipilih
+    </div>
+</div>
+
+<div class="form-row">
+    <label>TOTAL HARGA :</label>
+    <input type="text" id="totalHarga" readonly value="Rp 0" style="font-weight:bold; color:#e67e22;">
+</div>
+
+                <div class="form-row">
+                    <label>UKURAN BAJU :</label>
+                    <div class="ukuran-group">
+                        <label><input type="checkbox" class="ukuran" value="S"> S</label>
+                        <label><input type="checkbox" class="ukuran" value="M"> M</label>
+                        <label><input type="checkbox" class="ukuran" value="L"> L</label>
+                        <label><input type="checkbox" class="ukuran" value="XL"> XL</label>
+                        <label><input type="checkbox" class="ukuran" value="XXL"> XXL</label>
+                        <label><input type="checkbox" class="ukuran" value="XXXL"> XXXL</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>JENIS KELAMIN :</label>
+                    <input type="text" id="jenisKelamin" placeholder="Laki-laki / Perempuan">
+                </div>
+                <div class="form-row">
+                    <label>NOMOR KREDIT / TELEPON :</label>
+                    <input type="tel" id="noKredit" placeholder="08xxxxxxxxxx">
+                </div>
+                <div class="btn-group">
+                    <button class="submit-btn" id="bayarSeragam">BAYAR</button>
+                    <button class="result-btn" onclick="keHalaman('transaksi')">HASIL TRANSAKSI</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== SPP ============== -->
+        <section class="page" id="spp">
+            <h2 class="page-title">PEMBAYARAN BULANAN SPP</h2>
+            <div class="pilih-box">
+                <h3>PILIH BULAN:</h3>
+                <div class="semester-box">
+                    <h4>SEMESTER 1</h4>
+                    <div class="bulan-grid">
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Juli"> Juli</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Agustus"> Agustus</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="September"> September</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Oktober"> Oktober</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="November"> November</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Desember"> Desember</label>
+                    </div>
+                    <h4>SEMESTER 2</h4>
+                    <div class="bulan-grid">
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Januari"> Januari</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Februari"> Februari</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Maret"> Maret</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="April"> April</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Mei"> Mei</label>
+                        <label class="bulan-item"><input type="checkbox" class="bulan-spp" value="Juni"> Juni</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>NAMA SISWA :</label>
+                    <input type="text" id="namaSpp">
+                </div>
+                <div class="form-row">
+                    <label>KELAS :</label>
+                    <input type="text" id="kelasSpp">
+                </div>
+                <div class="form-row">
+                    <label>NOMOR REKENING :</label>
+                    <input type="text" id="norekSpp">
+                </div>
+                <div class="btn-group">
+                    <button class="submit-btn" id="bayarSpp">BAYAR</button>
+                    <button class="result-btn" onclick="keHalaman('transaksi')">HASIL TRANSAKSI</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== UJIAN ============== -->
+        <section class="page" id="ujian">
+            <h2 class="page-title">PEMBAYARAN UJIAN SEMESTER</h2>
+            <div class="pilih-box">
+                <h3>PILIH UJIAN:</h3>
+                <div class="semester-box">
+                    <h4>SEMESTER GANJIL</h4>
+                    <div class="bulan-grid">
+                        <label class="bulan-item"><input type="checkbox" class="ujian-check" value="UTS Semester Ganjil"> UTS (Tengah Semester)</label>
+                        <label class="bulan-item"><input type="checkbox" class="ujian-check" value="UAS Semester Ganjil"> UAS (Akhir Semester)</label>
+                    </div>
+                    <h4>SEMESTER GENAP</h4>
+                    <div class="bulan-grid">
+                        <label class="bulan-item"><input type="checkbox" class="ujian-check" value="UTS Semester Genap"> UTS (Tengah Semester)</label>
+                        <label class="bulan-item"><input type="checkbox" class="ujian-check" value="UAS Semester Genap"> UAS (Akhir Semester)</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label>NAMA SISWA :</label>
+                    <input type="text" id="namaUjian">
+                </div>
+                <div class="form-row">
+                    <label>KELAS :</label>
+                    <input type="text" id="kelasUjian">
+                </div>
+                <div class="form-row">
+                    <label>NOMOR REKENING :</label>
+                    <input type="text" id="norekUjian">
+                </div>
+                <div class="btn-group">
+                    <button class="submit-btn" id="bayarUjian">BAYAR</button>
+                    <button class="result-btn" onclick="keHalaman('transaksi')">HASIL TRANSAKSI</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== TRANSAKSI = HASIL PEMBELIAN & BAYAR ============== -->
+        <section class="page" id="transaksi">
+            <h2 class="page-title">HASIL TRANSAKSI</h2>
+            <div class="hasil-box">
+                <!-- SERAGAM -->
+                <div class="hasil-section">
+                    <h3>📌 HASIL PEMBELIAN SERAGAM SEKOLAH</h3>
+                    <hr>
+                    <p><strong>Nama Siswa:</strong> <span id="t_namaSiswa">-</span></p>
+                    <p><strong>Jumlah Seragam Dibeli:</strong> <span id="t_jmlBeli">0</span> buah</p>
+                    <p><strong>Detail Barang:</strong></p>
+                    <div id="t_detailBarang" class="detail-list">-</div>
+                    <p><strong>Ukuran Baju:</strong> <span id="t_ukuran">-</span></p>
+                    <p><strong>Jenis Kelamin:</strong> <span id="t_jk">-</span></p>
+                    <p><strong>Nomor Telepon:</strong> <span id="t_noKredit">-</span></p>
+                </div>
+
+                <!-- SPP -->
+                <div class="hasil-section">
+                    <h3>💰 HASIL PEMBAYARAN SPP</h3>
+                    <hr>
+                    <p><strong>Nama Siswa:</strong> <span id="t_namaSpp">-</span></p>
+                    <p><strong>Kelas:</strong> <span id="t_kelasSpp">-</span></p>
+                    <p><strong>Bulan yang Dibayar:</strong> <span id="t_bulanSpp">-</span></p>
+                    <p><strong>Nomor Rekening:</strong> <span id="t_norekSpp">-</span></p>
+                </div>
+
+                <!-- UJIAN -->
+                <div class="hasil-section">
+                    <h3>📝 HASIL PEMBAYARAN UJIAN</h3>
+                    <hr>
+                    <p><strong>Nama Siswa:</strong> <span id="t_namaUjian">-</span></p>
+                    <p><strong>Kelas:</strong> <span id="t_kelasUjian">-</span></p>
+                    <p><strong>Jenis Ujian:</strong> <span id="t_jenisUjian">-</span></p>
+                    <p><strong>Nomor Rekening:</strong> <span id="t_norekUjian">-</span></p>
+                </div>
+
+              
+
+                <div class="status-selesai">
+                    <h2>✅ TRANSAKSI SELESAI</h2>
+                    <p>Semua data pembelian & pembayaran telah tercatat dengan baik.</p>
+                    <p>Terima kasih atas pembayaran Anda!</p>
+                    <hr>
+                    <button class="back-btn" onclick="keHalaman('beranda')">🏠 KEMBALI KE BERANDA</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
